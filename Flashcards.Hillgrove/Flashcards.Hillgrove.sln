@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flashcards.Hillgrove", "Flashcards.Hillgrove\Flashcards.Hillgrove.csproj", "{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.csharpierrc = .csharpierrc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		sql\create_tables.sql = sql\create_tables.sql
+		sql\seed_report_data.sql = sql\seed_report_data.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flashcards.Hillgrove.Tests", "Flashcards.Hillgrove.Tests\Flashcards.Hillgrove.Tests.csproj", "{CA996EEE-71B5-437E-80F0-41CBAF45BA07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Debug|x64.Build.0 = Debug|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Debug|x86.Build.0 = Debug|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Release|x64.ActiveCfg = Release|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Release|x64.Build.0 = Release|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{E08B2448-5E73-4A0D-8C46-E8DC04E6E7C4}.Release|x86.Build.0 = Release|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Release|x64.Build.0 = Release|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA996EEE-71B5-437E-80F0-41CBAF45BA07}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {407D08FC-66A8-4634-9601-175DEFF67F99}
+	EndGlobalSection
+EndGlobal
